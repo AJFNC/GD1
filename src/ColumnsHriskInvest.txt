@@ -1,0 +1,12 @@
++-----------+----------------------+------+-----+------------+----------------+
+| Field     | Type                 | Null | Key | Default    | Extra          |
++-----------+----------------------+------+-----+------------+----------------+
+| id        | smallint(5) unsigned | NO   | PRI | NULL       | auto_increment |
+| invname   | varchar(50)          | NO   |     |            |                |
+| prevclose | double(7,2)          | YES  |     | NULL       |                |
+| prevperc  | double(3,2)          | YES  |     | NULL       |                |
+| balance   | double(7,2)          | YES  |     | NULL       |                |
+| closeperc | double(3,2)          | YES  |     | NULL       |                |
+| date      | date                 | YES  |     | 0000-00-00 |                |
++-----------+----------------------+------+-----+------------+----------------+
+7 rows in set (0.11 sec)
